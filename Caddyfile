@@ -1,0 +1,11 @@
+{
+auto_https off
+}
+
+http://localhost:8080 {
+    route { 
+        cas {
+            base_url "https://example.com"
+        }
+    }
+}
